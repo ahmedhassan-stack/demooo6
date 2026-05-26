@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="معرض مشاريع شركة الفارس للمقاولات العامة — فلل فاخرة، مشاريع تجارية، تشطيبات، ترميم، وأحدث المنجزات في المملكة العربية السعودية">
+  <meta property="og:title" content="مشاريعنا | الفارس للمقاولات العامة">
+  <title>مشاريعنا | الفارس للمقاولات العامة</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+
+<!-- PAGE LOADER -->
+<div class="page-loader" id="pageLoader" aria-hidden="true">
+  <div class="loader-logo"><span>الفارس</span> للمقاولات</div>
+  <div class="loader-bar"><div class="loader-progress"></div></div>
+</div>
+
+<!-- BACK TO TOP -->
+<button class="back-top" aria-label="العودة إلى الأعلى">↑</button>
+
+<!-- NAVBAR -->
+<header class="navbar navbar--transparent" role="banner">
+  <div class="navbar__inner">
+    <a href="index.html" class="navbar__logo">
+      <span class="navbar__logo-text"><span class="navbar__logo-accent">الفارس</span> للمقاولات</span>
+      <span class="navbar__logo-sub">General Contracting Est.</span>
+    </a>
+    <nav class="navbar__nav" aria-label="القائمة الرئيسية">
+      <a href="index.html" class="navbar__link">الرئيسية</a>
+      <a href="about.html" class="navbar__link">من نحن</a>
+      <a href="services.html" class="navbar__link">خدماتنا</a>
+      <a href="projects.html" class="navbar__link active">مشاريعنا</a>
+      <a href="contact.html" class="navbar__link">تواصل معنا</a>
+    </nav>
+    <div class="navbar__cta">
+      <a href="contact.html" class="btn btn-primary">احصل على عرض سعر</a>
+    </div>
+    <button class="hamburger" aria-label="فتح القائمة" aria-expanded="false">
+      <span class="hamburger__line"></span>
+      <span class="hamburger__line"></span>
+      <span class="hamburger__line"></span>
+    </button>
+  </div>
+</header>
+
+<nav class="mobile-menu" aria-label="القائمة المتنقلة">
+  <a href="index.html" class="mobile-menu__link">الرئيسية</a>
+  <a href="about.html" class="mobile-menu__link">من نحن</a>
+  <a href="services.html" class="mobile-menu__link">خدماتنا</a>
+  <a href="projects.html" class="mobile-menu__link active">مشاريعنا</a>
+  <a href="contact.html" class="mobile-menu__link">تواصل معنا</a>
+</nav>
+
+<main>
+  <!-- PAGE HERO -->
+  <section class="page-hero" aria-label="مشاريعنا">
+    <div class="page-hero__bg" style="background-image: url('https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1920&q=80');"></div>
+    <div class="page-hero__content">
+      <p class="page-hero__eyebrow">إنجازاتنا</p>
+      <h1 class="page-hero__title">مشاريعنا</h1>
+      <nav class="page-hero__breadcrumb" aria-label="مسار التنقل">
+        <a href="index.html">الرئيسية</a>
+        <span>›</span>
+        <span>مشاريعنا</span>
+      </nav>
+    </div>
+  </section>
+
+  <!-- PROJECTS GALLERY -->
+  <section class="section section--charcoal">
+    <div class="container">
+      <div class="section-header--center reveal" style="margin-bottom: var(--space-xl);">
+        <span class="section-eyebrow">معرض الأعمال</span>
+        <h2 class="section-title">كل مشروع يحكي قصة</h2>
+        <div class="gold-line gold-line--center"></div>
+        <p class="section-subtitle">
+          نفخر بتقديم هذا المعرض الذي يعكس تنوع خبراتنا وعمق التزامنا بالجودة في كل مشروع نُنجزه
+        </p>
+      </div>
+
+      <!-- FILTER BUTTONS -->
+      <div class="projects-filter" role="group" aria-label="تصفية المشاريع">
+        <button class="filter-btn active" data-filter="all" aria-pressed="true">الكل</button>
+        <button class="filter-btn" data-filter="villas" aria-pressed="false">فلل</button>
+        <button class="filter-btn" data-filter="commercial" aria-pressed="false">مشاريع تجارية</button>
+        <button class="filter-btn" data-filter="finishing" aria-pressed="false">تشطيبات</button>
+        <button class="filter-btn" data-filter="renovation" aria-pressed="false">ترميم</button>
+        <button class="filter-btn" data-filter="modern" aria-pressed="false">مشاريع حديثة</button>
+      </div>
+
+      <!-- MASONRY GRID -->
+      <div class="projects-masonry" id="masonryGrid">
+
+        <!-- Villas -->
+        <div class="masonry-item" data-cat="villas">
+          <div class="masonry-item-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=600&q=80"
+              alt="فيلا الأندلس الفاخرة"
+              class="masonry-img"
+              loading="lazy"
+              style="height: 380px; width: 100%;"
+            >
+            <div class="masonry-info">
+              <div class="masonry-cat">فلل سكنية</div>
+              <div class="masonry-title">فيلا الأندلس الفاخرة — الرياض</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="masonry-item" data-cat="commercial">
+          <div class="masonry-item-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=600&q=80"
+              alt="برج الأعمال المركزي"
+              class="masonry-img"
+              loading="lazy"
+              style="height: 280px; width: 100%;"
+            >
+            <div class="masonry-info">
+              <div class="masonry-cat">مشاريع تجارية</div>
+              <div class="masonry-title">برج الأعمال المركزي — جدة</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="masonry-item" data-cat="finishing">
+          <div class="masonry-item-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&q=80"
+              alt="قصر الفخامة الداخلي"
+              class="masonry-img"
+              loading="lazy"
+              style="height: 340px; width: 100%;"
+            >
+            <div class="masonry-info">
+              <div class="masonry-cat">تشطيبات</div>
+              <div class="masonry-title">قصر الفخامة الداخلي — الدمام</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="masonry-item" data-cat="villas">
+          <div class="masonry-item-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=600&q=80"
+              alt="فيلا النخيل الملكية"
+              class="masonry-img"
+              loading="lazy"
+              style="height: 300px; width: 100%;"
+            >
+            <div class="masonry-info">
+              <div class="masonry-cat">فلل سكنية</div>
+              <div class="masonry-title">فيلا النخيل الملكية — الرياض</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="masonry-item" data-cat="modern">
+          <div class="masonry-item-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=600&q=80"
+              alt="منتجع الواجهة البحرية"
+              class="masonry-img"
+              loading="lazy"
+              style="height: 360px; width: 100%;"
+            >
+            <div class="masonry-info">
+              <div class="masonry-cat">مشاريع حديثة</div>
+              <div class="masonry-title">منتجع الواجهة البحرية — جدة</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="masonry-item" data-cat="commercial">
+          <div class="masonry-item-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1464938050520-ef2270bb8ce8?w=600&q=80"
+              alt="مجمع الأعمال الذهبي"
+              class="masonry-img"
+              loading="lazy"
+              style="height: 260px; width: 100%;"
+            >
+            <div class="masonry-info">
+              <div class="masonry-cat">مشاريع تجارية</div>
+              <div class="masonry-title">مجمع الأعمال الذهبي — الخبر</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="masonry-item" data-cat="renovation">
+          <div class="masonry-item-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&q=80"
+              alt="ترميم قصر الأمراء"
+              class="masonry-img"
+              loading="lazy"
+              style="height: 320px; width: 100%;"
+            >
+            <div class="masonry-info">
+              <div class="masonry-cat">ترميم</div>
+              <div class="masonry-title">ترميم قصر التراث — الطائف</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="masonry-item" data-cat="finishing">
+          <div class="masonry-item-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=600&q=80"
+              alt="تصميم داخلي فاخر"
+              class="masonry-img"
+              loading="lazy"
+              style="height: 280px; width: 100%;"
+            >
+            <div class="masonry-info">
+              <div class="masonry-cat">تشطيبات</div>
+              <div class="masonry-title">بيت النخبة الداخلي — الرياض</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="masonry-item" data-cat="villas">
+          <div class="masonry-item-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=600&q=80"
+              alt="فيلا الأفق الأزرق"
+              class="masonry-img"
+              loading="lazy"
+              style="height: 350px; width: 100%;"
+            >
+            <div class="masonry-info">
+              <div class="masonry-cat">فلل سكنية</div>
+              <div class="masonry-title">فيلا الأفق الأزرق — أبحر</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="masonry-item" data-cat="modern">
+          <div class="masonry-item-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&q=80"
+              alt="مكتب الإبداع الحديث"
+              class="masonry-img"
+              loading="lazy"
+              style="height: 270px; width: 100%;"
+            >
+            <div class="masonry-info">
+              <div class="masonry-cat">مشاريع حديثة</div>
+              <div class="masonry-title">مكاتب شركة الإبداع — الرياض</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="masonry-item" data-cat="commercial">
+          <div class="masonry-item-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1470723710355-95304d8aece4?w=600&q=80"
+              alt="فندق النجوم الخمس"
+              class="masonry-img"
+              loading="lazy"
+              style="height: 310px; width: 100%;"
+            >
+            <div class="masonry-info">
+              <div class="masonry-cat">مشاريع تجارية</div>
+              <div class="masonry-title">فندق النجوم الخمس — مكة</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="masonry-item" data-cat="renovation">
+          <div class="masonry-item-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=600&q=80"
+              alt="تطوير مجمع الحرفيين"
+              class="masonry-img"
+              loading="lazy"
+              style="height: 290px; width: 100%;"
+            >
+            <div class="masonry-info">
+              <div class="masonry-cat">ترميم وتطوير</div>
+              <div class="masonry-title">تطوير مجمع الحرفيين — القصيم</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED PROJECT SHOWCASE -->
+  <section class="section section--dark">
+    <div class="container">
+      <div class="section-header--center reveal" style="margin-bottom: var(--space-2xl);">
+        <span class="section-eyebrow">المشروع المميز</span>
+        <h2 class="section-title">فيلا الأندلس — تحفة معمارية</h2>
+        <div class="gold-line gold-line--center"></div>
+      </div>
+
+      <div class="grid-2" style="gap: var(--space-xl); align-items: center;">
+        <div class="reveal-right">
+          <img
+            src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=700&q=80"
+            alt="فيلا الأندلس الفاخرة"
+            style="width: 100%; border-radius: var(--radius-lg); aspect-ratio: 4/3; object-fit: cover;"
+            loading="lazy"
+          >
+        </div>
+        <div class="reveal-left">
+          <span class="section-eyebrow">الرياض · ٢٠٢٣</span>
+          <h3 style="font-size: var(--fs-h2); font-weight: 800; margin-bottom: var(--space-sm);">
+            فيلا الأندلس
+          </h3>
+          <div class="gold-line"></div>
+          <p style="color: var(--light-gray); line-height: 1.9; margin: var(--space-md) 0; font-size: var(--fs-sm);">
+            مشروع استثنائي يجمع بين الطراز الأندلسي الأصيل وأرقى عناصر العمارة الحديثة. تمتد الفيلا على مساحة ١٢٠٠ متر مربع وتضم ٨ غرف نوم فاخرة، ومسبحاً خارجياً، وحديقة غنّاء، وتصاميم داخلية استلهمت روح الأندلس في أبهى صورها.
+          </p>
+
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-md); margin-bottom: var(--space-xl);">
+            <div style="background: var(--dark-mid); padding: var(--space-md); border-radius: var(--radius-sm); border: 1px solid rgba(200,169,110,0.1);">
+              <div style="color: var(--gold); font-size: var(--fs-xs); font-weight: 700; margin-bottom: 4px; letter-spacing: 0.1em;">المساحة</div>
+              <div style="font-size: 1.1rem; font-weight: 700;">١٢٠٠ م²</div>
+            </div>
+            <div style="background: var(--dark-mid); padding: var(--space-md); border-radius: var(--radius-sm); border: 1px solid rgba(200,169,110,0.1);">
+              <div style="color: var(--gold); font-size: var(--fs-xs); font-weight: 700; margin-bottom: 4px; letter-spacing: 0.1em;">مدة التنفيذ</div>
+              <div style="font-size: 1.1rem; font-weight: 700;">١٨ شهراً</div>
+            </div>
+            <div style="background: var(--dark-mid); padding: var(--space-md); border-radius: var(--radius-sm); border: 1px solid rgba(200,169,110,0.1);">
+              <div style="color: var(--gold); font-size: var(--fs-xs); font-weight: 700; margin-bottom: 4px; letter-spacing: 0.1em;">النوع</div>
+              <div style="font-size: 1.1rem; font-weight: 700;">سكني فاخر</div>
+            </div>
+            <div style="background: var(--dark-mid); padding: var(--space-md); border-radius: var(--radius-sm); border: 1px solid rgba(200,169,110,0.1);">
+              <div style="color: var(--gold); font-size: var(--fs-xs); font-weight: 700; margin-bottom: 4px; letter-spacing: 0.1em;">الحالة</div>
+              <div style="font-size: 1.1rem; font-weight: 700; color: #4caf50;">مُنجز ✓</div>
+            </div>
+          </div>
+
+          <a href="contact.html" class="btn btn-primary">ابنِ مشروعاً مماثلاً</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats-section section" aria-label="إحصائيات المشاريع">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item reveal">
+          <div class="stat-item__number"><span data-counter data-target="350" data-suffix="+">٠</span></div>
+          <div class="stat-item__label">مشروع منجز</div>
+        </div>
+        <div class="stat-item reveal reveal-delay-1">
+          <div class="stat-item__number"><span data-counter data-target="5" data-suffix="">٠</span><span class="stat-item__suffix"> مدن</span></div>
+          <div class="stat-item__label">في المملكة العربية السعودية</div>
+        </div>
+        <div class="stat-item reveal reveal-delay-2">
+          <div class="stat-item__number"><span data-counter data-target="98" data-suffix="٪">٠</span></div>
+          <div class="stat-item__label">نسبة الإنجاز في الموعد</div>
+        </div>
+        <div class="stat-item reveal reveal-delay-3">
+          <div class="stat-item__number"><span data-counter data-target="100" data-suffix="٪">٠</span></div>
+          <div class="stat-item__label">رضا العملاء المستمر</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-banner section" aria-label="دعوة لبدء مشروع">
+    <div class="cta-banner__bg" role="img" aria-label="موقع بناء"></div>
+    <div class="cta-banner__content container">
+      <h2 class="cta-banner__title reveal">مشروعك القادم <span>يستحق الأفضل</span></h2>
+      <p class="cta-banner__subtitle reveal reveal-delay-1">
+        انضم إلى قائمة عملائنا المميزين وشاهد رؤيتك تتحول إلى واقع يبهر الجميع
+      </p>
+      <div class="cta-banner__actions reveal reveal-delay-2">
+        <a href="contact.html" class="btn btn-primary">ابدأ مشروعك الآن</a>
+        <a href="services.html" class="btn btn-ghost">خدماتنا الكاملة</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- FOOTER -->
+<footer class="footer" role="contentinfo">
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <div class="footer__logo-text"><span>الفارس</span> للمقاولات</div>
+        <div class="gold-line" style="margin-bottom: var(--space-md);"></div>
+        <p class="footer__desc">شركة الفارس للمقاولات العامة — شريكك الموثوق في البناء والإنشاء منذ عام ١٩٩٨.</p>
+        <div class="footer__social">
+          <a href="#" class="footer__social-link" aria-label="تويتر">𝕏</a>
+          <a href="#" class="footer__social-link" aria-label="إنستغرام">📷</a>
+          <a href="#" class="footer__social-link" aria-label="لينكدإن">in</a>
+          <a href="#" class="footer__social-link" aria-label="يوتيوب">▶</a>
+        </div>
+      </div>
+      <div>
+        <h4 class="footer__col-title">روابط سريعة</h4>
+        <ul class="footer__links">
+          <li><a href="index.html" class="footer__link">الصفحة الرئيسية</a></li>
+          <li><a href="about.html" class="footer__link">من نحن</a></li>
+          <li><a href="services.html" class="footer__link">خدماتنا</a></li>
+          <li><a href="projects.html" class="footer__link">مشاريعنا</a></li>
+          <li><a href="contact.html" class="footer__link">تواصل معنا</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="footer__col-title">تصنيفات المشاريع</h4>
+        <ul class="footer__links">
+          <li><a href="projects.html" class="footer__link">فلل سكنية</a></li>
+          <li><a href="projects.html" class="footer__link">مشاريع تجارية</a></li>
+          <li><a href="projects.html" class="footer__link">تشطيبات داخلية</a></li>
+          <li><a href="projects.html" class="footer__link">مشاريع ترميم</a></li>
+          <li><a href="projects.html" class="footer__link">مشاريع حديثة</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="footer__col-title">تواصل معنا</h4>
+        <div class="footer__contact-item">
+          <span class="footer__contact-icon">📍</span>
+          <div class="footer__contact-text">طريق الملك فهد، حي العليا<br>الرياض، المملكة العربية السعودية</div>
+        </div>
+        <div class="footer__contact-item">
+          <span class="footer__contact-icon">📞</span>
+          <div class="footer__contact-text">+966 11 000 0000</div>
+        </div>
+        <div class="footer__contact-item">
+          <span class="footer__contact-icon">✉️</span>
+          <div class="footer__contact-text">info@alfaris-contracting.sa</div>
+        </div>
+        <h4 class="footer__col-title" style="margin-top: var(--space-lg);">النشرة البريدية</h4>
+        <form class="footer__newsletter-form" novalidate>
+          <input type="email" class="footer__newsletter-input" placeholder="بريدك الإلكتروني" aria-label="بريدك الإلكتروني">
+          <button type="submit" class="footer__newsletter-btn">اشتراك</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p class="footer__copyright">© ٢٠٢٤ <span>شركة الفارس للمقاولات العامة</span>. جميع الحقوق محفوظة</p>
+      <div class="footer__legal">
+        <a href="#" class="footer__legal-link">سياسة الخصوصية</a>
+        <a href="#" class="footer__legal-link">شروط الاستخدام</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
